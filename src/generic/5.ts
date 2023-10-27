@@ -3,7 +3,7 @@
   Використовуйте generics, щоб цей інтерфейс міг працювати з будь-якими типами ключів та значень.
 */
 
-interface KeyValuePair<V, K extends keyof V> {
+interface KeyValuePair<V, K> {
   key:K;
   value:V;
 }
